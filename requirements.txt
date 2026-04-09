@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+transformers
+datasets
+peft
+torch
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+matplotlib
+seaborn

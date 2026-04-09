@@ -1,0 +1,7 @@
+Modern RAG (Retrieval-Augmented Generation) systems often fail when processing long documents because standard chunking methods lose context. To overcome this, we use a 2-page sliding window strategy. Each window overlaps with the next to ensure that mid-sentence transitions are captured.
+
+Furthermore, we implement a Knowledge Pyramid. The top layer is Distilled Knowledge—compact facts and keywords. The second layer is the Category/Theme, which helps in broad filtering. The third layer is a Chunk Summary for semantic alignment. The base layer is the Raw Text for detailed verification.
+
+In the realm of reasoning models, GSM8K is a benchmark for grade-school math word problems. Fine-tuning models like Llama 3.2 on this dataset requires LoRA adapters to manage compute constraints. By training only a small subset of weights, we can achieve high reasoning performance without high costs.
+
+Vexoo Labs specializes in these advanced AI engineering patterns, ensuring that modularity and scalability are at the heart of every system.
